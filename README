@@ -1,0 +1,18 @@
+Playing with the Facebook Places API in Ruby
+============================================
+
+Methods:
+  checkins         - Get your checkins.
+  checkin          - Get a checkin.
+  friends_checkins - Get a friends checkins.
+  check_in         - Check in to a Place.
+  search_nearby    - Search nearby
+
+How to use:
+1.) Sign in to an application that you own with following extended permissions: user_checkins, friends_checkins, publish_checkins, offline_access
+2.) View your cookies to find your access_token and copy it into the ACCESS_TOKEN constant at the top of edit_then_run_me.rb
+3.) Uncomment the example that you wish to run and add any require parameters.
+
+All results are returned to the console in pretty JSON.
+
+NOTE: You may want to make the HTTP connections transactional and add some error checking before using these methods in a production application.
